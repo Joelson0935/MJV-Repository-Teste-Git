@@ -26,10 +26,10 @@ public class Main {
 				"marlon147@email.com", 2225261314L, 71998643385L, 71998643385L, "Desenvolvedor Frontend",
 				"MJV Technology & Innovation", 5.000, true, 2.200, 10.000);
 
-		Escrever.arquivo(joelson, "csv");
-		Escrever.arquivo(marlon, "docx");
-		Escrever.arquivo(marlon, "doc");
-		Escrever.arquivo(joelson, "docx");
+		Escrever.arquivo(joelson, "joelson", "csv");
+		Escrever.arquivo(marlon, "marlon", "docx");
+		Escrever.arquivo(marlon, "marlon", "doc");
+		Escrever.arquivo(joelson, "joelson", "docx");
 
 		System.out.println("Criado com sucesso!");
 
