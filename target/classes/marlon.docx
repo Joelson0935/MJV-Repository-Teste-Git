@@ -1,0 +1,24 @@
+[ 
+ nome = Marlon 
+ cpf = 333.444.222-01 
+ nascimento = 2001-01-18 
+ sexo = MASCULINO 
+ logradouro = Rua Nantes 
+ numero = 50-F 
+ bairro = Quebrada Mística 
+ complemento = próximo ao Bar do Alcolatras 
+ cidade = Rio bonito 
+ estado = Rio de Janeiro 
+ email = marlon147@email.com 
+ telefone = 2225261314 
+ celular = 71998643385 
+ whatsapp = 71998643385 
+ profissao = Desenvolvedor Frontend 
+ empresa = MJV Technology & Innovation 
+ salario = 5.0 
+ empregoAtual = true 
+ pretencaoMinima = 2.2 
+ pretencaoMaxima = 10.0 
+  habilidades = [ 
+ ]
+ ] 

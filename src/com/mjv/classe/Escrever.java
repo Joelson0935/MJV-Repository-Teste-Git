@@ -14,26 +14,32 @@ public class Escrever {
 	 * @param objeto      - objeto do tipo Cadastro que será convertido em bytes
 	 * @param nomeArquivo - escreve o nome do arquivo que deseja criar
 	 * @param extensao    - tipo do arquivo a ser criado
-	 * @return retorna um arquivo na área de trabalho
+	 * @return cria os arquivos dentro da pasta " resource " do proprio projeto.
 	 * @throws NoSuchFileException
 	 */
 	public static String arquivo(Cadastro cadastro, String nomeArquivo, String extensao) throws IOException {
 
 		String stringFormatada = String.valueOf(cadastro);
+
 		String novaString = stringFormatada.replace("habilidades = [", " habilidades = [ \n ");
+
 		List<String> collection = Arrays.asList(novaString.split(","));
+
 		String resultado = "";
+
 		for (String string : collection) {
 			resultado += string + " \n";
 		}
-		File file = new File(nomeArquivo + "." + extensao);
+
+		File file = new File("resource\\" + nomeArquivo + "." + extensao);
+
 		try {
 			FileWriter fileWriter = new FileWriter(file, true);
 			fileWriter.write(resultado);
 			fileWriter.flush();
 			fileWriter.close();
 		} catch (IOException e) {
-			throw new NoSuchFileException("Algo deu errado!");
+			e.printStackTrace();
 		}
 
 		return resultado;

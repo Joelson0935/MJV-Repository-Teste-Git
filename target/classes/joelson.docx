@@ -1,0 +1,28 @@
+[ 
+ nome = Joelson 
+ cpf = 000.111.222-01 
+ nascimento = 1989-05-14 
+ sexo = MASCULINO 
+ logradouro = Rua Minas 
+ numero = 33A 
+ bairro = Luz Divina 
+ complemento = próximo aos hippies 
+ cidade = Petrópolis 
+ estado = Pernambuco 
+ email = joelson01@email.com 
+ telefone = 1125261314 
+ celular = 22998643385 
+ whatsapp = 22998643385 
+ profissao = Desenvolvedor Java 
+ empresa = MJV Technology & Innovation 
+ salario = 5.0 
+ empregoAtual = true 
+ pretencaoMinima = 2.2 
+ pretencaoMaxima = 10.0 
+  habilidades = [ 
+ Java 
+ JavaScript 
+ Spring Boot 
+ HTML 
+ CSS]
+ ] 

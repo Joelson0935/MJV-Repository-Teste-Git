@@ -229,7 +229,7 @@ public class Cadastro {
 	public String toString() {
 		StringBuilder stringBuilder = new StringBuilder();
 
-		stringBuilder.append("[ \n").append("nome = " + nome).append(", cpf = " + cpf)
+		stringBuilder.append("[ \n").append(" nome = " + nome).append(", cpf = " + cpf)
 				.append(", nascimento = " + nascimento).append(", sexo = " + sexo)
 				.append(", logradouro = " + logradouro).append(", numero = " + numero).append(", bairro = " + bairro)
 				.append(", complemento = " + complemento).append(", cidade = " + cidade).append(", estado = " + estado)
